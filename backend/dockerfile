@@ -18,6 +18,6 @@ FROM ubuntu:latest
     
     ADD https://s3-us-west-2.amazonaws.com/studentapi-cit/student.war webapps/
 
-    ADD 
+    ADD https://s3-us-west-2.amazonaws.com/studentapi-cit/mysql-connector.jar 
     
     CMD sh bin/catalina.sh run
