@@ -1,6 +1,6 @@
 FROM centos:7
 
-LABEL developer="Nilesh Mane"
+LABEL developer="Pranay Patil"
 
 RUN yum update -y
 RUN yum install httpd -y 
