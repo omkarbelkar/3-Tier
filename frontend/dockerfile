@@ -1,6 +1,6 @@
 FROM ubuntu:
 
-LABEL developer="shubham kalsait"
+LABEL developer="Nilesh Mane"
 
 RUN yum install httpd -y 
 COPY index.html /var/www/html/index.html
