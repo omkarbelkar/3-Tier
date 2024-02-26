@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM cnt:latest
 
 LABEL developer="Nilesh Mane"
 
