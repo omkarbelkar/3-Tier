@@ -1,4 +1,4 @@
-FROM 
+FROM ubuntu:
 
 LABEL developer="shubham kalsait"
 
