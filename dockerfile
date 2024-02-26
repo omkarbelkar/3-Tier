@@ -7,4 +7,4 @@ ENV DB_PASS="1"
 RUN echo "DB USER is $USER_NAME"
 RUN echo "DB password is $DB_PASS"
 
-CMD ['/bin/bash']
+CMD /bin/bash
