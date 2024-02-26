@@ -1,4 +1,4 @@
-FROM 
+FROM ubuntu
 
 ARG USER_NAME
 
