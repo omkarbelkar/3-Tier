@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:22
 
 LABEL developer="Nilesh Mane"
 
