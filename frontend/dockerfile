@@ -3,7 +3,7 @@ FROM ubuntu:latest
 LABEL developer="Nilesh Mane"
 
 RUN apt update
-RUN apt install httpd -y 
+RUN apt install apache2 -y 
 COPY index.html /var/www/html/index.html
 EXPOSE 80
 CMD httpd -DFOREGROUND
