@@ -5,5 +5,8 @@ LABEL developer="Nilesh Mane"
 RUN apt update
 RUN apt install apache2 -y 
 COPY index.html /var/www/html/index.html
+RUN chmod -R 755 /var/www
+RUN chmod 644 /var/www/html/index.html
+
 EXPOSE 80
 CMD apache2 -DFOREGROUND
