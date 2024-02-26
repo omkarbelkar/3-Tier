@@ -1,4 +1,4 @@
-FROM cnt:latest
+FROM centos:7
 
 LABEL developer="Nilesh Mane"
 
