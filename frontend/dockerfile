@@ -8,4 +8,4 @@ COPY index.html /var/www/html/index.html
 EXPOSE 80
 CMD apache2 run
 
-CMD apache2 -DFOREGROUND
+ENTRYPOINT [ "executable" ] apache2 -DFOREGROUND
